@@ -1,0 +1,10 @@
+region               = "br-se1"
+vm_name              = "my-test-vm"
+ssh_key_name         = "my-key" # for ssh resource creation
+instance_type        = "BV1-1-10"
+vm_image             = "cloud-ubuntu-24.04 LTS"
+ssh_private_key_path = "~/.ssh/id_rsa"
+project_name         = "deploy-llm"
+allowed_tcp_ports    = [80]
+magalu_api_key       = "3...3f"
+my_ssh_pub_key       = "ssh-rsa AAAA...+R4s= mail@mac.local"

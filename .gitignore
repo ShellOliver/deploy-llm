@@ -1,0 +1,49 @@
+# Terraform files
+*.tfstate
+*.tfstate.backup
+.terraform/*
+terraform.tfvars
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Credentials
+*.pem
+
+# Exclude files that might contain secrets
+secrets.tfvars
+secrets.tf
+*.secret
+*.key
+
+# Crash Reports
+crash.log
+crash.*.log
+
+# Ignore generated files
+.terraformrc
+terraform-docs.json
+terraform-docs.md
+
+# Temporary files
+*~
+\#*\#
+.DS_Store
+
+# Vault
+.vault
+
+#VSCode
+.vscode/*
+
+#Terraform Cloud Credentials
+.terraform.d/*
+
+# Other files that might contain secrets (adjust according to your project's naming conventions)
+credentials.tfvars
+passwords.tfvars
+
+# Build artifacts (if you generate any during terraform execution)
+/build/
+/dist/
